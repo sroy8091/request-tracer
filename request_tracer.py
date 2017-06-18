@@ -11,7 +11,7 @@ try:
 except ImportError:
     from urlparse import urlparse
 try:
-    import urllib.request       #Python 3.x
+    import urllib.request
 except ImportError:
     import urllib2 
 
